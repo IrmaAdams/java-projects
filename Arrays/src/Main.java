@@ -15,7 +15,7 @@ public class Main {
         //System.out.println(artist[0]);
 
         // using a for loop to iterate through all elements of an array
-        for(int i=0;i<= artist.length-1;i++){
+        for(int i=0;i< artist.length;i++){
             System.out.println(artist[i]);
         }
 
