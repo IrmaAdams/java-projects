@@ -56,7 +56,7 @@ public class Main {
 //        System.out.println(car.year);
 //        System.out.println();
 
-        // output address of car object in memory
+        // output address of car object in memory if toString() not overridden in car class
 //        System.out.println(car);                    // calling toString() method implicitly
 //        System.out.println(car.toString());         // calling toString() method explicitly
 
