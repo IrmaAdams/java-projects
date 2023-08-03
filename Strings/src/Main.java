@@ -58,9 +58,9 @@ public class Main {
 
         // output address of car object in memory if toString() not overridden in car class
 //        System.out.println(car);                    // calling toString() method implicitly
-//        System.out.println(car.toString());         // calling toString() method explicitly
+//        System.out.println(car.toString());         // calling toString() method implicitly
 
-        // Override toString method to print a textual representation of car
+        // Override toString method to print a textual representation of car - calling toString method explicitly
         car.toString();                             // output actual representation of car object
 
 
