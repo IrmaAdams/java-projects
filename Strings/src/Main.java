@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         String name = "MyName";
-        System.out.println(name);
+        //System.out.println(name);
 
         // equals method
 //        boolean result = name.equals("My Name");
@@ -39,7 +39,32 @@ public class Main {
 //        System.out.println("." + result + ".");
 
         // replace method
-        String result = name.replace('y', '*');
-        System.out.println(result);
+//        String result = name.replace('y', '*');
+//        System.out.println(result);
+
+        // ToString method
+
+        // toString()   =   special method that all objects inherit (from the Object Super class)
+        //                  that returns a string that "textually represents" an object.
+        //                  It can be used both implicitly and explicitly
+
+        Car car = new Car();
+
+//        System.out.println(car.make);
+//        System.out.println(car.model);
+//        System.out.println(car.colour);
+//        System.out.println(car.year);
+//        System.out.println();
+
+        // output address of car object in memory
+//        System.out.println(car);                    // calling toString() method implicitly
+//        System.out.println(car.toString());         // calling toString() method explicitly
+
+        // Override toString method to print a textual representation of car
+        car.toString();                             // output actual representation of car object
+
+
+
+
     }
 }
