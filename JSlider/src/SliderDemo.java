@@ -44,11 +44,7 @@ public class SliderDemo extends JFrame implements ChangeListener {
         frame.add(panel);
         frame.setSize(450,480);
         frame.setVisible(true);
-
-
     }
-
-
     @Override
     public void stateChanged(ChangeEvent e) {
 
