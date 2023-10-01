@@ -14,6 +14,7 @@ public class MyFrame extends JFrame {
         // Java documentation on paint method in the Component class:  public void paint(Graphics g)
         // docs.oracle.com/javase/7/docs/api/java/awt/Component.html#paint(java.awt.Graphics)
         // Graphics 2D is a sub-class of Graphics g
+        // Test Get Frame
 
     }
 
