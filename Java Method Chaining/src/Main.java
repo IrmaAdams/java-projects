@@ -14,7 +14,7 @@ public class Main {
 
         System.out.println(s1);
 
-        
+
         // 1 line of code:
         String s2 = "   Hello ";
 
